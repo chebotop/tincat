@@ -14,10 +14,16 @@
     font-size: 1.2rem;
 }
 
-
+/* Title */
 #title {
     background-color: #76BA99;
 }
+#mockup-img {
+    max-height: 300px;
+    max-width: 100%;
+    z-index: 1;
+}
+
 
 .container-fluid {
     padding: 1% 5%;
@@ -40,11 +46,7 @@ h1 {
     color: white;
 }
 
-/* Title Image */
-#mockup-img {
-    max-height: 300px;
-    max-width: 100%;
-}
+
 
 /* Download Buttons */
 .download-button {
@@ -117,4 +119,27 @@ h2 {
 /* Pricing */
 #pricing {
     text-align: center;
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.btn-info {
+    background-color: #33ce86;
+    color: white;
+    border-color: #33ce86
+}
+.btn-info:hover {
+    background-color: #76BA99;
+    border-color: #76BA99;
+    color: white;
+}
+#shitbutton {
+    color: #76BA99;  
+    border-color: #76BA99;
+}
+#shitbutton:hover {
+    background-color: #76BA99;
+    color: white;
+    border-color: #76BA99;
 }
