@@ -205,4 +205,12 @@ h2-responsive {
         margin-left: 50px;
         margin-right: 50px;
     }
+    #pricing {
+        padding-right: 20%;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+    #cta #footer-buttons {
+        margin: 2% 20%;
+    }   }
 }
