@@ -213,11 +213,16 @@ h2-responsive {
     }
     #cta #footer-buttons {
         margin: 2% 20%;
+        
+    }
+    .carousel-control-prev {
+        left: 10px;
+    }
+    .carousel-control-next {
+        left: 245px;
     }   }
     
-    .carousel-control-next {
-        left: 230px;
-    }
+
     #features {
         margin-right: 20px;
     }
