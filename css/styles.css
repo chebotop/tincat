@@ -125,7 +125,7 @@ h2-responsive {
 /* Pricing */
 #pricing {
     text-align: center;
-    padding: 100px;
+    padding: 10%;
 }
 .pricing-column {
     padding: 3% 2%;
@@ -157,9 +157,13 @@ h2-responsive {
         font-size: 1.6rem;
     }
     .feature-title {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .feature-icon {
         margin: 3% 40% 7%;
     }
+    #pricing {
+        padding-right: 20%;
+    }
+    
   }
