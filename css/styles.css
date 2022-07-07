@@ -163,8 +163,14 @@ h2-responsive {
 }
 #footer {
     font-family: 'Montserrat', Times, serif  ;
+    font-size: 10px;
     font-weight: 400;
     text-align: center;
+    margin: auto 10%;
+    padding: 3%;
+}
+#footer i {
+    padding: 20px 10px;
 }
 /* Responsible for Phone */
 @media screen and (max-width: 600px) {
@@ -189,7 +195,7 @@ h2-responsive {
 @media screen and (max-width: 400px) {
 
     h1 {
-        margin-left: 10px;
+        margin-left: 20px;
 
     }
     .download-button {
