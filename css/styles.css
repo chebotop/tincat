@@ -1,3 +1,8 @@
+/* @media screen and (min-width: 1200px) {
+html {
+    margin-left: 20px;
+
+}} */
 /* Navigation Bar */
 .navbar-brand {
     font-family: "Ubuntu";
@@ -31,9 +36,10 @@
 
 body {
     font-family: "Montserrat";
-    padding-left: 8px;
+    /* padding-left: 8px; */
     overflow-x: hidden; 
     width: 100vw;
+    /* margin-left: 15px; */
 }
 
 h1 {
@@ -177,12 +183,7 @@ h2-responsive {
         margin: 2% 35%;
     }   }
 @media screen and (max-width: 400px) {
-    body {
-        margin-left: 100px;
-        left: 50px;
-        margin-right: 40px;
-        right: 30px
-    }
+
     h1 {
         margin-left: 10px;
 
@@ -213,4 +214,13 @@ h2-responsive {
     #cta #footer-buttons {
         margin: 2% 20%;
     }   }
-}
+    
+    .carousel-control-next {
+        left: 230px;
+    }
+    #features {
+        margin-right: 20px;
+    }
+    .navbar-brand {
+        padding-right: 20px
+    }
