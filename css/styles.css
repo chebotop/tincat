@@ -161,7 +161,11 @@ h2-responsive {
 #cta #footer-buttons {
     margin: 2% 35%;
 }
-
+#footer {
+    font-family: 'Montserrat', Times, serif  ;
+    font-weight: 400;
+    text-align: center;
+}
 /* Responsible for Phone */
 @media screen and (max-width: 600px) {
     h1 {
